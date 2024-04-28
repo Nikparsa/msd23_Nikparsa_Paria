@@ -27,8 +27,8 @@ The goal of this exercise is to become familiar with fundamental Git commands an
 - **Gitignore**: Don't forget to create a `.gitignore` file to specify files and directories that Git should ignore.
 ## Screenshot of some Git Commands
 #### git config
-![Git Config](C:\FH\Semester_2\Configuration_Management\msd23_Nikparsa_Paria\1.png)
+![Git Config](1.png)
 #### git status
-![Git Status](C:\FH\Semester_2\Configuration_Management\msd23_Nikparsa_Paria\2.png)
+![Git Status](2.png)
 #### git log
-![Git Status](C:\FH\Semester_2\Configuration_Management\msd23_Nikparsa_Paria\3.png)
+![Git Status](3.png)

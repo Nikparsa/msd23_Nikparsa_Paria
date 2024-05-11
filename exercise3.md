@@ -25,14 +25,3 @@ openjdk version "21.0.3" 2024-04-16 LTS
 
 ### Maven -Version
 Apache Maven Version 3.9.6 
-
-### Creating a New Project in IntelliJ
-- Create your new Java project in IntelliJ in the root directory of your repository.
-- Pay attention to the chosen Java SDK and use the correct project name.
-- Set the project location as the parent directory of your repository directory.
-- Check the project structure to ensure it meets the requirements.
-- Create a new file named `exercise3.md` and document your exercise steps in it.
-
----
-
-*Note: Replace `<lastname>` and `<firstname>` with your last name and first name, respectively.*

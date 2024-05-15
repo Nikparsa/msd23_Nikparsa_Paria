@@ -30,6 +30,11 @@ Apache Maven Version 3.9.6
 
 ### New Folder Created
 
-After running the specified command, a new folder was created in the project directory.
+After running the java Main class, the new folder "target" was created in the project directory.
 
 ![New Folder](resources/images/ex3_1.png)
+
+### mvn compile
+
+![mvn compile](resources/images/ex3_2.png)
+

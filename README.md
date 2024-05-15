@@ -63,25 +63,7 @@ public class Main {
     }
 }
 ```
-## Examples
-```java
-/ Create a new instance of the SinglyLinkedList class
-SinglyLinkedList list = new SinglyLinkedList();
 
-// Insert elements into the list
-list.insertHead('A');
-list.insertHead('B');
-list.insertHead('C');
-
-// Print the list
-System.out.println("List: " + list);
-
-// Reverse the list
-list.reverse();
-
-// Print the reversed list
-System.out.println("Reversed List: " + list);
-```
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or create a pull request on the GitHub repository.
 ## License

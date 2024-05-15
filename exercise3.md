@@ -25,3 +25,11 @@ openjdk version "21.0.3" 2024-04-16 LTS
 
 ### Maven -Version
 Apache Maven Version 3.9.6 
+
+
+
+### New Folder Created
+
+After running the specified command, a new folder was created in the project directory.
+
+![New Folder] (resources/images/ex3_1.png)

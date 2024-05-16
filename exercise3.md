@@ -38,3 +38,7 @@ After running the java Main class, the new folder "target" was created in the pr
 
 ![mvn compile](resources/images/ex3_2.png)
 
+### Demo 
+
+![java exec](resources/images/ex3_3.png)
+

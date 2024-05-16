@@ -17,5 +17,7 @@ public class Main {
 
         double resultDivision = calculator.divide(456, 12);
         System.out.println("Result of division: " + resultDivision);
+        String myName = "Paria Nikparsa";
+        System.out.println(myName);
     }
 }

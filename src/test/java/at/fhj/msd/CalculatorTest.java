@@ -41,4 +41,10 @@ public class CalculatorTest {
         assertEquals(1, calc.divide(-2, -2)); // -2 / (-2) = 1
 
     }
+    @Test
+    public void testFactorial() {
+        assertEquals(120, calc.factorial(5));
+        assertEquals(1, calc.factorial(0));
+        assertEquals(0, calc.factorial(-3));
+    }
 }

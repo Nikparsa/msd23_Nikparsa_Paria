@@ -59,6 +59,11 @@ public class CalculatorTest {
         assertEquals(120, calc.factorial(5));
         assertEquals(1, calc.factorial(0));
         assertEquals(1, calc.factorial(1));
-        assertEquals(0, calc.factorial(-3));
+
+        // Test für negative Eingabe
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            calc.factorial(-3);
+        });
+        assertEquals("Negative input for factorial", exception.getMessage());
     }
 }

@@ -56,8 +56,8 @@ public class Calculator {
     public double divide(double num1, double num2) {
         logger.debug("divide() - Parameters: num1={}, num2={}", num1, num2);
         if (num2 == 0) {
-            logger.error("divide() - Division by zero");
-            throw new ArithmeticException("Division by zero");
+            logger.error("divide() - Division by zero: num1={}, num2={}", num1, num2);
+            throw new IllegalArgumentException("Division by zero");
         }
         return num1 / num2;
     }

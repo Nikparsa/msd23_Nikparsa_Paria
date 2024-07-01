@@ -43,8 +43,14 @@ public class CalculatorTest {
 
     @Test
     public void testDivideByZero() {
-        assertThrows(ArithmeticException.class, () -> {
+        assertThrows(IllegalArgumentException.class, () -> {
             calc.divide(5, 0);
+        });
+    }
+    @Test
+    public void testFactorialNegativeInput() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            calc.factorial(-3);
         });
     }
 

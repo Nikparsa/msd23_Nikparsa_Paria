@@ -58,6 +58,15 @@
           <release>21</release>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.12.1</version>
+        <configuration>
+          <!-- Configure additional settings if needed -->
+        </configuration>
+      </plugin>
+
 
       <plugin>
         <groupId>org.codehaus.mojo</groupId>

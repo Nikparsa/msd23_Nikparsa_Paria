@@ -77,6 +77,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Exercise4](exercise4.md)
 - [Exercise5](exercise5.md)
 - [Exercise6](exercise6.md)
+- [Good Style Guide](src/main/site/markdown/good_style.md)
 
 ## Author Information
 
